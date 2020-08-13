@@ -8,28 +8,47 @@
     tools:context=".activities.MainActivity">
 
     <EditText
+        android:id="@+id/edittext_n1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:id="@+id/edittext_n1"
-        android:inputType="number"
-        android:hint="@string/digite_n_mero_1" />
+        android:hint="@string/digite_n_mero_1"
+        android:inputType="number" />
 
     <EditText
+        android:id="@+id/edittext_n2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:id="@+id/edittext_n2"
-        android:inputType="number"
-        android:hint="@string/digite_n_mero_2" />
+        android:hint="@string/digite_n_mero_1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edittext_n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/digite_n_mero_1"
+        android:inputType="number" />
 
     <Button
+        android:id="@+id/button_somar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/somar"
-        android:id="@+id/button_somar"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:text="@string/somar" />
+
+    <TextView
+        android:id="@+id/textview_saida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    "
 
 
 </LinearLayout>
