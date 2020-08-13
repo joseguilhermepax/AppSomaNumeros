@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SomaNumeros</string>
+    <string name="digite_n_mero_1">Digite número 1</string>
+    <string name="digite_n_mero_2">Digite número 2</string>
+    <string name="somar">somar</string>
 </resources>
