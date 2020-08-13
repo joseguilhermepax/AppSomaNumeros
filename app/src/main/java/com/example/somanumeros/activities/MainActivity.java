@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         soma = n1 + n2;
 
-        Toast.makeText(this, String.format("%.2f", soma), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, String.format("Soma: %.2f", soma), Toast.LENGTH_SHORT).show();
 
 
     }
